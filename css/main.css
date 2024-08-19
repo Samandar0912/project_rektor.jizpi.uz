@@ -81,3 +81,31 @@ nav{
 .form-control, .form-select{
     border: 1px solid #2AABEE !important;
 }
+
+
+
+.btn-submit{
+    margin: auto;
+    display: block;
+    width: 400px;
+    padding: 10px;
+    border:1px solid #1B6EC0;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #1B6EC0;
+    color: #fff;
+    transition: all .2s;
+}
+.btn-submit:hover{
+    background: #0d5092;
+    transition: all .2s;
+}
+
+.Modal-text{
+    display: inline-block;
+    width: auto;
+    transform: translate(580px, 15px);
+    font-size: 18px !important;
+}

@@ -34,7 +34,7 @@
 
     <!-- Navbar end -->
     
-    <section class="main">
+    <section class="main mb-5">
       <div class="container">
         <div class="center-text-box">
           <span>Sizda hal etilmagan masalalar muammolar, ariza, shikoyat yoki takliflar bormi?</span>
@@ -45,21 +45,21 @@
       <div class="container">
         <form class="row g-3 mt-5">
           <div class="col-md-6">
-            <label class="form-label">Last Name:</label>
+            <label class="form-label">Familiyangiz:</label>
             <input type="text" class="form-control">
           </div>
           <div class="col-md-6">
-            <label class="form-label">Name:</label>
+            <label class="form-label">Ismingiz:</label>
             <input type="text" class="form-control">
           </div>
           <div class="col-12">
             <label for="inputAddress" class="form-label">Manzil:</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Jizzax viloyati Sharof Rashidov tumani    ** ko'cha   ** uy">
           </div>
           <div class="col-md-6">
             <label for="inputState" class="form-label">Viloyat:</label>
             <select id="inputState" class="form-select">
-              <option selected>Qaysi vilolyat...</option>
+              <option selected>---</option>
               <option>Jizzax</option>
             </select>
           </div>
@@ -73,10 +73,68 @@
             <input type="email" class="form-control">
           </div>
          
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Jinsingiz:</label>
+            <select id="inputState" class="form-select">
+              <option selected>---</option>
+              <option>Erkak</option>
+              <option>Ayol</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Murojat turi:</label>
+            <select id="inputState" class="form-select">
+              <option selected>---</option>
+              <option>Ariza</option>
+              <option>Taklif</option>
+              <option>Shikoyat</option>
+            </select>
+          </div>
+
+
           <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <label class="form-label">Murajatni qisqacha mazmuni:</label>
+            <input type="text" class="form-control">
+          </div>
+
+          <textarea class="form-control" cols="30" rows="10" placeholder="Murojaatingiz tezkor ravishda hal etilishini istasangiz, har bir masala bo’yicha alohida murojaat yo’llashingizni hamda mazkur murojaatni anniq, oddiy va ravon tilda bayon etishingizni so’raymiz!"></textarea>
+
+
+
+          <div class="col-12">
+            <button type="submit" class="btn-submit">Jo'natish</button>
           </div>
         </form>
+        
+
+        
+        
+        <!-- Button trigger modal -->
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="Modal-text"><b>Ommaviy oferta</b></a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Hurmatli foydalanuvchi!</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <b>Sizga Jizzax politexnika instituti rektoriga bevosita elektron tarzda murojaatlarni yuborish imkoniyati taqdim etilmoqda. Shu bilan birga, Sizning yuborayotgan murojaatingiz rasmiy maqomga ega ekanligini ham eslatib qo’ymoqchimiz. Shu sababli, Sizdan quyidagilarni unutmasligingizni so’raymiz:</b>
+                  <br>
+                  <p>1. Jismoniy shaxs sifatida murojaat yo’llasangiz familiyangiz (ismingiz, otangizning ismi), yashash joyingiz to’g’risidagi ma’lumotlar ko’rsatilgan va murojaatingiz mohiyati bayon etilgan bo’lishi shart. Yuridik shaxs sifatida murojaat yo’llasangiz yuridik shaxsning to’liq nomi, uning joylashgan joyi (pochta manzili) to’g’risidagi ma’lumotlar ko’rsatilgan va murojaatning mohiyati bayon etilishi talab etiladi.</p>
+                  <P>2. Alohida e’tibor bering! Tuhmat, haqorat so’zlar ishlatilgan va yolg’on xabar beruvchi murojaatlarni taqdim etish mumkin emas.</P>
+                  <p>3. Shuningdek, quyidagi holatlarda murojaatlaringiz rad etilishi mumkinligini eslatib o’tmoqchimiz: odobsizlik mazmunidagi murojaatlar (uyatsiz yoxud haqoratli iboralar, tahdidlar, mantiq va ma’nosi bo’lmagan takliflar va shunga o’xshash murojaatlar); murojaat matnida tushunarsiz qisqartirishlar yoki reklama materiallari mavjud bo’lgan, tarkibida aniq arizalar, shikoyatlar yoki takliflar bo’lmagan murojaatlar</p>
+                  <p>4. Shuningdek, foydalanuvchining bir necha bor bitta masala bo’yicha javob berilgan murojaatini qayta yuborilganda agar unda yangi vajlar yoki holatlar keltirilmagan bo’lsa, ko’rib chiqilmaydi. Mazkur shartlarning barchasi O’zbekiston Respublikasining amaldagi qonunchiligidan kelib chiqqan holda belgilangan.</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+
+
       </div>
     </section>
     
