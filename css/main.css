@@ -376,3 +376,236 @@ center h6{
     background: #fff;
     box-shadow: 0 0 10px #bdbcbc;
 }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px){
+    .nav-text-box .p1, .nav-text-box .p2, .nav-text-box .p3{
+        font-size: 18px;
+    }
+    .center-text-box span{
+        font-size: 16px;
+    }
+    .Modal-text {
+        display: inline-block;
+        width: auto;
+        transform: translate(490px, 15px); 
+        font-size: 18px !important;
+    }
+    .footer-row{
+        height: 100% !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .nav-text-box .p1, .nav-text-box .p2, .nav-text-box .p3{
+        font-size: 18px;
+    }
+    .center-text-box span{
+        font-size: 18px;
+    }
+    .Modal-text {
+        display: inline-block;
+        width: auto;
+        transform: translate(400px, 15px) !important; 
+        font-size: 18px !important;
+    }
+    .footer-row{
+        height: 100% !important;
+    }
+    .box-detail_in-1 {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .user-text{
+        width: auto !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 992px){
+    .nav-text-box{
+        display: none;
+    }
+    .center-text-box span{
+        font-size: 18px;
+    }
+    .Modal-text{
+        display: inline-block;
+        width: auto;
+        transform: translate(280px, 15px) !important;
+        font-size: 18px !important;
+    }
+    .footer-row{
+        height: 100% !important;
+    }
+    
+    .box-detail_in-1 {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .user-text{
+        width: auto !important;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .box-detail1 p{
+        font-size: 20px !important;
+        height: auto !important;
+    }
+    
+    .table th, td {
+        color: #093663 !important;
+        font-size: 16px !important;
+    }
+
+
+    .box-detail_in-1 {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .user-text{
+        width: auto !important;
+    }
+
+
+    .box-login{
+        width: 100% !important;
+    }
+    .box-input {
+        position: relative;
+        margin: auto;
+        width: 409px;
+        height: 100%;
+        border-radius: 6px;
+        border: 1px solid #1400FF;
+        box-shadow: 0 10px 15px rgb(179, 179, 179);
+        margin: 30px auto;
+    }
+
+    .login-btn {
+        width: 405px;
+        padding: 1px;
+        border: 1px solid #1400FF;
+        border-radius: 6px;
+        margin-left: 0 !important;
+        box-shadow: 0 10px 20px rgb(179, 179, 179);
+    }
+    
+    .box-success{
+        width: auto !important;
+    }
+    
+    .box-success .succes-text1, .succes-text2 {
+        display: inline-block;
+        color: #2FCE77;
+        font-size: 32px !important;
+        font-weight: 600;
+        margin-top: 0 !important;
+    }
+
+.nav-text-box{
+    display: none;
+}
+.nav-logo-box h3 {
+    display: inline-block;
+    width: 165px;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+}
+.nav-btn-box button{
+    padding: 5px 10px !important;
+}
+
+.Modal-text {
+    display: inline-block;
+    width: auto;
+    transform: translate(190px, 15px) !important;
+    font-size: 18px !important;
+}
+.footer-row{
+    display: flex !important;
+    flex-direction: column;
+    padding: 10px;
+}
+.info{
+    padding: 0 !important;
+}
+.info .title-info{
+    font-size: 22px !important;
+    font-weight: 500;
+
+}
+.info .title-span, .link span{
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+.img-icon{
+    width: 30px !important;
+    height: 30px !important;
+    top: -35px;
+}
+
+.link-icon .img-icon-2{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.footer-col{
+    padding: 22px !important;
+}
+.footer-col p{
+font-size: 20px !important;
+}
+.jizpi-logo{
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.center-text-box span{
+    font-size: 16px;
+}
+.btn-submit {
+    margin: auto;
+    display: block;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #1B6EC0;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #1B6EC0;
+    color: #fff;
+    transition: all .2s;
+}
+}
+
+
+
+
+
+
