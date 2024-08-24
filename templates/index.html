@@ -11,80 +11,16 @@
       </div>
 
       <div class="container">
-        <form metod='POST' class="row g-3 mt-5">
-        
-          <div class="col-md-6">
-            <label class="form-label">Familiyangiz:</label>
-            <input type="text" class="form-control">
-          </div>
-
-          <div class="col-md-6">
-            <label class="form-label">Ismingiz:</label>
-            <input type="text" class="form-control">
-          </div>
-
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Manzil:</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Jizzax viloyati Sharof Rashidov tumani    ** ko'cha   ** uy">
-          </div>
-
-          <div class="col-md-6">
-            <label for="inputState" class="form-label">Viloyat:</label>
-            <select id="inputState" class="form-select">
-              <option selected>---</option>
-              <option>Jizzax</option>
-            </select>
-          </div>
-
-          <div class="col-md-6">
-            <label class="form-label">Tel raqam:</label>
-            <input type="text" class="form-control">
-          </div>
-
-          <div class="col-12">
-            <label class="form-label">Email:</label>
-            <input type="email" class="form-control">
-          </div>
-         
-          <div class="col-md-6">
-            <label for="inputState" class="form-label">Jinsingiz:</label>
-            <select id="inputState" class="form-select">
-              <option selected>---</option>
-              <option>Erkak</option>
-              <option>Ayol</option>
-            </select>
-          </div>
-
-          <div class="col-md-6">
-            <label for="inputState" class="form-label">Murojat turi:</label>
-            <select id="inputState" class="form-select">
-              <option selected>---</option>
-              <option>Ariza</option>
-              <option>Taklif</option>
-              <option>Shikoyat</option>
-            </select>
-          </div>
-
-
-          <div class="col-12">
-            <label class="form-label">Murajatni qisqacha mazmuni:</label>
-            <input type="text" class="form-control">
-          </div>
-
-          <textarea class="form-control" cols="30" rows="10" placeholder="Murojaatingiz tezkor ravishda hal etilishini istasangiz, har bir masala bo’yicha alohida murojaat yo’llashingizni hamda mazkur murojaatni anniq, oddiy va ravon tilda bayon etishingizni so’raymiz!"></textarea>
-
-
-
-          <div class="col-12">
-            <button type="submit" class="btn-submit">Jo'natish</button>
-          </div>
-          
+  
+        <form method="post" class="row g-3 mt-5">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit"  class="btn-submit">Jo'natish</button>
         </form>
+  
+      
         
-
-        
-        
-        <!-- Button trigger modal -->
+          <!-- Button trigger modal -->
           <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="Modal-text"><b>Ommaviy oferta</b></a>
 
           <!-- Modal -->
