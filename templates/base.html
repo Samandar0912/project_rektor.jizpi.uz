@@ -1,0 +1,101 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rektor Qabuli</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap_5_3_2.css' %}">
+  </head>
+  <body>
+        <!-- Navbar start -->
+    
+        <nav>
+            <div class="container d-flex justify-content-between">
+                <div class="nav-logo-box">
+                  <a href="{% url "index" %}"><img src="{% static 'img/jizpi-logo.png' %}" alt="rektor.jizpi.uz"></a>
+                  <h3>JIZZAX POLITEXNIKA INSTITUTI</h3>
+                </div>
+    
+                <div class="nav-text-box">
+                  <span class="p1">Jizzax Politexnika Instituti Rektori</span>
+                  <span class="p2">USMANQULOV ALISHER QODIRQULOVICHNING</span>
+                  <span class="p3">Virtual qabulxonasi</span>
+                </div>
+    
+                <div class="nav-btn-box">
+                  <a href='#'>Kirish</a>
+                </div>
+                
+            </div>
+        </nav>
+    
+        <!-- Navbar end -->
+    
+
+
+        {% block content %}{% endblock content %}
+
+
+
+
+
+
+
+
+
+        
+    <!-- Footer -->
+        
+    <section>
+        <div class="container-fluid cont-footer">
+            <div class="container ">
+                <footer>
+                    <div class="row footer-row">
+                        <div class="col-md-6 col-lg-4 col footer-col">
+                            <img class="jizpi-logo" src="{% static 'img/jizpi-logo.png' %}" alt="">
+                            <p>
+                                <span>Jizax</span><br>
+                                <span>Politexnika</span><br>
+                                <span>Instituti</span>
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col footer-col">
+                          <div class="info">
+                            <span class="title-info">biz bilan bog'lanish</span>
+                            <div class="line"></div>
+                            <span class="title-span">info@jizpi.uz</span><br>
+                            <a class="link" href="#"><img class="img-icon" src="{% static 'img/phone-call.png' %}" alt=""><span>+998 72 226 46 05</span></a><br>
+                            <a class="link" href="#"><img class="img-icon" src="{% static 'img/marker.png' %}" alt=""><span>Jizzax Islom Karimov Shoh ko‘chasi 4 uy</span></a>
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-lg-4 col footer-col">
+                            <div class="info">
+                                <span class="title-info">Bizni ijtimoiy tarmoqlarda kuzating!</span>
+                                <div class="line"></div>
+                                <div class="icon-box">
+                                    <a class="link-icon" href="https://x.com/jizpiuz"><img class="img-icon-2" src="{% static 'img/twitter.png' %}" alt=""></a>
+                                    <a class="link-icon" href="https://www.facebook.com/jizpiuz"><img class="img-icon-2" src="{% static 'img/facebook.png' %}" alt=""></a>
+                                    <a class="link-icon" href="https://t.me/JizPI_online"><img class="img-icon-2" src="{% static 'img/telegram.png' %}" alt=""></a>
+                                    <a class="link-icon" href="https://www.instagram.com/jizpi_solar_group/"><img class="img-icon-2" src="{% static 'img/instagram.png' %}" alt=""></a>
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            
+        </div>
+    </section>
+  
+    <!-- Footer end -->
+
+
+
+
+
+    <script src="{% static 'js/bootstrap5.3.js' %}"></script>
+  </body>
+</html>
